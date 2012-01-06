@@ -1,0 +1,46 @@
+ack:
+  Grep in vim
+
+vim-fugitive:
+  Git wrapper. View any blob, tree, commit, or tag in repo with :Gedit
+
+vim-git:
+  syntax, indent, filetype plugin for git files
+
+vim-markdown:
+  text to HTML conversion tool
+
+vim-rooter:
+  changes working directory to project root when you open a file
+
+vim-taglist:
+  provides overview of structure of source code files
+
+vim-unimpaired:
+  mappings for commonly used ex commands
+
+vim peepopen:
+  File navigation
+
+vim makegreen:
+  runs make and shows test run status with red or green bar
+
+endwise:
+  End structures automatically. end after if, do, def, etc.
+
+surround:
+  good for HTML editing, surrounds text with HTML tags
+
+ragtag:
+  Inserts <?xml...?>, <% %>, etc.
+
+rails:
+  Rails gf go-to-file partials and stuff
+
+tcomment:
+  comment/uncomment selected lines
+
+snipmate:
+  for <tab> will give out for(i = 0...)
+
+

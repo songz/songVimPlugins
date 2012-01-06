@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/fersho311/Sites/carrierWave'
+let g:netrw_dirhist_2='/Users/fersho311/Dropbox/Templates/carrierWave'
+let g:netrw_dirhist_3='/Users/fersho311/Sites/videoRate'
+let g:netrw_dirhist_4='/Users/fersho311/Sites/backbonetest'
