@@ -77,4 +77,17 @@ map <leader>tm :tabmove
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
 "autocmd BufNewFile,BufRead *_spec.rb compiler rspec
 
+inoremap {      {}<Left>
+inoremap {<CR>  {<CR>}<Esc>O
+inoremap {{     {
+inoremap {}     {}
 
+inoremap (      ()<Left>
+inoremap )      <Right>
+inoremap (<CR>  (<CR>)<Esc>O
+inoremap ()     ()
+
+inoremap [      []<Left>
+inoremap ]      <Right>
+inoremap [<CR>  [<CR>]<Esc>O
+inoremap []     []
