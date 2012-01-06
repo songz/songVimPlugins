@@ -46,6 +46,17 @@ Insert code snippets. For example, if you type 'for<tab>' in insert mode, it wil
 
 [github](https://github.com/msanders/snipmate.vim)
 
+## NerdTree
+
+The NERD tree allows you to explore your filesystem and to open files and 
+directories. It presents the filesystem to you in the form of a tree which you 
+manipulate with the keyboard and/or mouse.
+
+Feels like Textmate's project drawer
+
+[3 min tutorial on Nettuts+](http://net.tutsplus.com/tutorials/other/vim-essential-plugin-nerdtree/)
+[github](https://github.com/scrooloose/nerdtree)
+
 
 # vimrc
 Auto close curly brackets, parentheses, and brackets with inoremap
