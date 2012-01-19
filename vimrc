@@ -1,6 +1,6 @@
 set nocompatible                  " Must come first because it changes other options.
 
-call pathogen#infect()
+call pathogen#infect()  "Pathogen, allows organization of vim plugins
 syntax on			" Turn on syntax highlightin
 filetype plugin indent on	" Turn on file type detection
 
@@ -20,6 +20,8 @@ set wildmode=list:longest         " Complete files like a shell.
 
 set ignorecase                    " Case-insensitive searching.
 set smartcase                     " But case-sensitive if expression contains a capital letter.
+
+set smartindent                   " Auto Indent when you hit enter
 
 set number                        " Show line numbers.
 set ruler                         " Show cursor position.
@@ -77,17 +79,19 @@ map <leader>tm :tabmove
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
 "autocmd BufNewFile,BufRead *_spec.rb compiler rspec
 
-inoremap {      {}<Left>
-inoremap {<CR>  {<CR>}<Esc>O
+
+
+" Auto-complete and auto formatt parenthesis, curly braces, and square
+" brackets
+inoremap {      {  }<Left><Left>
+inoremap {<CR>  {<CR>}<Esc>O<Tab>
 inoremap {{     {
 inoremap {}     {}
 
-inoremap (      ()<Left>
-inoremap )      <Right>
-inoremap (<CR>  (<CR>)<Esc>O
+inoremap (      (  )<Left><Left>
+inoremap (<CR>  (<CR>)<Esc>O<Tab>
 inoremap ()     ()
 
-inoremap [      []<Left>
-inoremap ]      <Right>
-inoremap [<CR>  [<CR>]<Esc>O
+inoremap [      [  ]<Left><Left>
+inoremap [<CR>  [<CR>]<Esc>O<Tab>
 inoremap []     []
