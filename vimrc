@@ -81,17 +81,24 @@ map <leader>tm :tabmove
 
 
 
-" Auto-complete and auto formatt parenthesis, curly braces, and square
+" Auto-complete and auto format parenthesis, curly braces, and square
 " brackets
 inoremap {      {  }<Left><Left>
 inoremap {<CR>  {<CR>}<Esc>O<Tab>
-inoremap {{     {
 inoremap {}     {}
+inoremap {{     {{
 
 inoremap (      (  )<Left><Left>
 inoremap (<CR>  (<CR>)<Esc>O<Tab>
 inoremap ()     ()
+inoremap ((     ((
 
 inoremap [      [  ]<Left><Left>
 inoremap [<CR>  [<CR>]<Esc>O<Tab>
 inoremap []     []
+inoremap [[     [[
+
+" Rails style Erb files auto complete
+inoremap <%     <% %><Left><Left><Left>
+inoremap <%=     <%=  %><Left><Left><Left>
+
